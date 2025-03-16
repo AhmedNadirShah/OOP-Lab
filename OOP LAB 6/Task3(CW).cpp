@@ -114,8 +114,8 @@ int main() {
     cout << "Food Menu:\n"<<foodMenu.displayMenu();
     cout << "\nBeverage Menu:\n"<<beverageMenu.displayMenu();
 
-    waiter.takeOrder("Burger and Coke");
-    chef.prepareOrder("Burger");
+    waiter.takeOrder("Kabab and Coke");
+    chef.prepareOrder("Kabab");
 
     int foodQuantities[5] = {1, 0, 0, 0, 0};
     int beverageQuantities[5] = {1, 0, 0, 0, 0};
